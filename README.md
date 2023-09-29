@@ -24,10 +24,10 @@ The best games are the ones you make yourself--thus, the make-your-own quiz game
  ### Technologies
 
  - **HTML** - 5(?) pages of HTML, links to each page  
- - **CSS** - arrangement of elements, 
+ - **CSS** - arrangement of elements, use of whitespace, adapts to screen size
  - **JavaScript** - Login information, opening quizzes, saving quizzes, etc.
 - **Service** - All the backend for login, retrieving past quizzes, submitting quizzes
 - **DB** - Store quizzes and users in database
-- **Login** - Allows users to create an account and securely login
+- **Login** - Allows users to create an account and securely login, cannot take or create quizzes without account
 - **WebSocket** - Past quizzes are available to all users
 - **React** - Porting to React
