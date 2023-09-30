@@ -20,6 +20,7 @@ The best games are the ones you make yourself--thus, the make-your-own quiz game
 * Taking quizzes made by other users
  ![Quizzes](Quizzes.png)
  ![Quiz Taking](Take%20Quiz.png)
+ * Displays score of taken quizzes
 
  ### Technologies
 
