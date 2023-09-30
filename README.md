@@ -32,3 +32,13 @@ The best games are the ones you make yourself--thus, the make-your-own quiz game
 - **Login** - Allows users to create an account and securely login, cannot take or create quizzes without account
 - **WebSocket** - Past quizzes are available to all users
 - **React** - Porting to React
+
+## HTML deliverable
+
+- **HTML pages** - Seven deliverable pages, including login, home, a quiz list, a quiz editor, and a page to take the quiz and receive a score.
+- **Links** - Login links to the homepage, homepage links to past quizzes and for creating new quizzes.
+- **Text** - Most pages include some kind of text element.
+- **Images** - As far as I can tell, I did not need to include any images--this may change as development continues.
+- **Login** - There is input for an account login.
+- **Database** - Past quizzes will be retrieved from the database.
+- **WebSocket** - Newly created quizzes will be update the quiz list.
