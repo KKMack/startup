@@ -9,8 +9,10 @@
             <h1>
                 Make-Your-Own Quiz Game
             </h1>
-            <a href="home.html">Return to home</a>
+            <a href="home.html">Cancel and return home</a>
+
             <h3>[Quiz Name]</h3>
+            <h2>Edit Mode</h2>
             <br />
         </header>
 
@@ -19,32 +21,39 @@
             <h3>Q1</h3>
                 <!--Will change depending on the question number-->
 
-            <form method="get" action="takeQuiz.html">
+            <form method="get" action="editQuiz.html">
                 
-                <section><p><b>Question:</b> [question here]</p></section>
+                <label for="question">Question:</label>
+                <input type="text" id="question" placeholder="Question here" />
+
 
                 <div><h3>Answers:</h3></div>
+                <p>(Select the correct answer)</p>
 
                 <table>
                     <td>
                         <input type="radio" id="radio1" name="varRadio" value="radio1" checked />
-                        <p>Answer1</p>
+                        <input type="text" id="answer1" />
                     </td>
                     <td>
                         <input type="radio" id="radio2" name="varRadio" value="radio2" />
-                        <p>Answer2</p>
+                        <input type="text" id="answer2" />
                     </td>
                     <td>
                         <input type="radio" id="radio3" name="varRadio" value="radio3" />
-                        <p>Answer3</p>
+                        <input type="text" id="answer3" />
                     </td>
                     <td>
                         <input type="radio" id="radio4" name="varRadio" value="radio4" />
-                        <p>Answer4</p>
+                        <input type="text" id="answer4" />
                     </td>
                 </table>
 
                 <div><button>Next -></button></div>
+            </form>
+            <br />
+            <form method="get" action="QuizList.html">
+                <button>Create</button>
             </form>
         </main>
         
